@@ -10,7 +10,7 @@
 <body>
 <c:forEach items="${emplist }" var="empVO" >
  
- <H3> 사번 : ${empVO.employee_id}  이름 : ${empVO.last_name },${empVO.first_name } </H3>
+ <H3> 사번 : ${empVO.employee_id}  이름d : ${empVO.last_name },${empVO.first_name } </H3>
 
 </c:forEach>
 </body>
